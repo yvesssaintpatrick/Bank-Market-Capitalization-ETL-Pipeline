@@ -1,7 +1,9 @@
 Project Description
+
 This project is designed to extract, transform, and load (ETL) data on the largest banks by market capitalization from a web page. The project also includes functionalities for currency conversion, saving the data to a CSV file and a SQLite database, and executing SQL queries to analyze the data.
 
 Functions:
+
 extract(url, table_attribs)
 Extracts the required information from the website and saves it to a dataframe.
 
@@ -21,6 +23,7 @@ log_progress(message)
 Logs the mentioned message at a given stage of code execution to a log file.
 
 Database Schema
+
 Table Name: Largest_banks
 Columns:
 Name (TEXT)
