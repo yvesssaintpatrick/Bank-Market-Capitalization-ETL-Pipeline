@@ -24,19 +24,26 @@ Logs the mentioned message at a given stage of code execution to a log file.
 
 Database Schema
 
-Table Name: Largest_banks
+Table Name:
+
+Largest_banks
+
 Columns:
+
 Name (TEXT)
 MC_USD_Billion (REAL)
 MC_GBP_Billion (REAL)
 MC_EUR_Billion (REAL)
 MC_INR_Billion (REAL)
+
 Queries
 
 The script runs the following queries:
+
 SELECT * FROM Largest_banks
 SELECT AVG(MC_GBP_Billion) FROM Largest_banks
 SELECT Name FROM Largest_banks LIMIT 5
+
 Logging
 
 The script logs the progress of the ETL process in a log file named code_log.txt with timestamps.
